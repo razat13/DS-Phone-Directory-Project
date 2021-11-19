@@ -280,10 +280,8 @@ cout<<"\n\t=====================PRINTING ALL LIST============================\n\
  default:
  cout<<"\t----------Invalid----------"<<endl;
 }
-cout<<"\nDo you want to continue accessing the Phone Directory?(Y/N)";
-cin>>ch;
 }
-while(ch=='Y'||ch=='y');
+while(ch!=8);
 cout<<"\nTHANK YOU"<<endl;
 getch();
 } 
